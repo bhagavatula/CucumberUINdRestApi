@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  Background:"
+          }
+        ],
+        "line": 6,
+        "name": "validate api testing",
+        "description": "",
+        "id": "this-is-to-test-the-automation-api;validate-api-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1501691600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "url endpoint \"restapi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "restapi",
+                  "offset": 14
+                }
+              ],
+              "location": "ApiAutomationStepDefination.getHealthEndPoint(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Automation1"
+          }
+        ]
+      }
+    ],
+    "name": "This is to test the automation api",
+    "description": "",
+    "id": "this-is-to-test-the-automation-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AutomationTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ApiAutomationTesting"
+      }
+    ]
+  }
+]

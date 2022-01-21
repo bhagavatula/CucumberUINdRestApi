@@ -1,0 +1,27 @@
+page: "SignPage"
+elements:
+  -
+    name: "PageLoaded"
+    type: "Text"
+    locators:
+      className: "ping-input-link"
+  - #User name textbox on sign in page
+    name: "UserName"
+    type: "textbox"
+    locators:
+      id: "username"
+  - #  Password textbox on sign in page
+    name: "Password"
+    type: "textbox"
+    locators:
+      id: "password"
+  - # Login Button
+    name: "LogIn"
+    type: "button"
+    locators:
+      className: "ping-button"
+  -
+    name: "LogOut"
+    type: "button"
+    locators:
+      id: "logOut"

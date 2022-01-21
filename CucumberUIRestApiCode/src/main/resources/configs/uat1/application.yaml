@@ -1,0 +1,24 @@
+browserUri: "https://clcsuat.loanquality.com"
+browse: "chrome"
+driverpath: "C:\\ProgramFiles\\SeleniumClientDrivr 3.4.3"
+spring:
+    profiles:
+      active: uat1
+fileStroe:
+  hostName:
+    userId:
+    passwrd:
+    xmlStore:
+    tranmissionStore:
+
+users:
+  systemAdmin:
+    userId: "userId"
+    passowrd: "password"
+
+download_retry:
+  max_attempts: 12
+
+globalValues:
+  timeOut: 100000
+  polling: 2000

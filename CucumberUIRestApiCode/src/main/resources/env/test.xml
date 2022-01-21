@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment>
+    <application id = "AUTOMATIONURL">
+        <url>https://www.google.com</url>
+    </application>
+</environment>

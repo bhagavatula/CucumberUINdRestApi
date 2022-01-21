@@ -1,0 +1,20 @@
+[
+  {
+    "source": "^url endpoint \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "url endpoint \"restapi\"",
+        "aggregatedDurations": {
+          "average": 1.5016916,
+          "median": 1.5016916
+        },
+        "durations": [
+          {
+            "duration": 1.5016916,
+            "location": "src/test/resources/features/AutomationTest.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
